@@ -3,7 +3,9 @@
 ##
 
 # Introduction
+This website is created with Javascript and is a quiz, with content from Warhammer Fantasy Battles.
 
+My goal is to create a functioning, responsive and fun quiz that incorporates Javascript in its fundemental design.
 # UX
 
 ## User Stories

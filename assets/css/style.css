@@ -1,2 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Inknut Antiqua & Montserrat */
+
+body {
+    background: #FFD700;
+}
