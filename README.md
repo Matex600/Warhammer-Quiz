@@ -19,9 +19,12 @@
 
 # Site Design
 
-# Composition
-
-# Colour Scheme
+## Composition
+* [Inknut Antiqua](https://fonts.google.com/specimen/Inknut+Antiqua?query=inknut). - Font is being used for all headings.
+* [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon). - Font is used for all other text I feel as though these two fonts fit
+  well together and compliment my site as a whole, I have used sans serif as a fall back font
+  this is a general font and easy to read.
+## Colour Scheme
 
 
 # Site Features
@@ -34,7 +37,11 @@
 * [JS](https://en.wikipedia.org/wiki/JavaScript). - For Contacting the DOM.
 
 # Libraries and tools
-
+ * [Google fonts](https://fonts.google.com/)
+ *
+ *
+ *
+ *
 
 # Testing
 
