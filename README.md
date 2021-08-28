@@ -23,9 +23,11 @@ My goal is to create a functioning, responsive and fun quiz that incorporates Ja
 
 ## Composition
 * [Inknut Antiqua](https://fonts.google.com/specimen/Inknut+Antiqua?query=inknut). - Font is being used for all headings.
-* [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon). - Font is used for all other text I feel as though these two fonts fit
+* [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon). - Font is used for all other text 
+* I feel as though these two fonts fit
   well together and compliment my site as a whole, I have used sans serif as a fall back font
   this is a general font and easy to read.
+* I have used appropriate images for the project idea.
 ## Colour Scheme
 
 
@@ -67,3 +69,6 @@ My goal is to create a functioning, responsive and fun quiz that incorporates Ja
 
 ## Media
 
+## Acknowledgment
+[Code Institute](https://codeinstitute.net/). - Preparing me for HTML, CSS and JS.
+[Favicon](https://favicon.io/). - I used this site to download and implement a favicon to my site.
