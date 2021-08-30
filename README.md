@@ -29,7 +29,7 @@ My goal is to create a functioning, responsive and fun quiz that incorporates Ja
   this is a general font and easy to read.
 * I have used appropriate images for the project idea.
 ## Colour Scheme
-* rgba(29, 29, 27, 1) Site background with transparency 0.6 this colour is used
+* rgba(29, 29, 27, 0.9) Site background with transparency 0.9 this colour is used
 frequently in WFB.
 
 # Site Features

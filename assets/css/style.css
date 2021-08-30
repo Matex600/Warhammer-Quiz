@@ -10,7 +10,7 @@
 body {
     font-family: Montserrat, sans-serif;
     color: #FFD700 ;
-    background: rgba(29, 29, 27, 1);
+    background: rgba(29, 29, 27, 0.9);
 }
 
 #hero-image {
