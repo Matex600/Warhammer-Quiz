@@ -2,5 +2,12 @@
 /* Inknut Antiqua & Montserrat */
 
 body {
-    background: rgb(255,215,0,0.6);
+    background: rgba(29, 29, 27, 1);
+}
+
+#hero-image {
+   display: block;
+   margin: 0 auto;
+   max-width: 100%;
+   height: auto;
 }
