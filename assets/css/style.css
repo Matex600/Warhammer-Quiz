@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Inknut Antiqua & Montserrat */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
+    font-family: Montserrat, sans-serif;
+    color: #FFD700 ;
     background: rgba(29, 29, 27, 1);
 }
 
 #hero-image {
-   display: block;
-   margin: 0 auto;
-   max-width: 100%;
-   height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
