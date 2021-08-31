@@ -34,3 +34,14 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+.flex.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
