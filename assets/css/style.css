@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Montserrat&display=swap');
 /* Inknut Antiqua & Montserrat */
 
 * {
@@ -8,8 +8,9 @@
 }
 
 body {
-    font-family: Montserrat, sans-serif;
-    color: #FFD700 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #FFD700;
     background: rgba(29, 29, 27, 0.9);
 }
 
@@ -18,4 +19,13 @@ body {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+}
+
+h2 {
+    font-family: 'Inknut Antiqua', sans-serif;
+}
+
+
+.flex-box {
+    
 }
