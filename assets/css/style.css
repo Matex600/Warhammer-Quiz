@@ -50,7 +50,7 @@ nav {
 }
 
 .navbar a:hover {
-    color: ;
+    color: #00008B;
 }
 
 
@@ -110,6 +110,11 @@ footer p {
     padding: 5px;
     border: 3px ridge #000000;
     border-radius: 5px;
+    letter-spacing: 1.5px;
+}
+
+.game-box a:hover {
+    color: #00008B;
 }
 
 #play-btn {}
