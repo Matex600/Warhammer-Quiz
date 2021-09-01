@@ -79,3 +79,4 @@ It is recommended for users to open any links found in this README with Ctrl + l
 ## Acknowledgment
 [Code Institute](https://codeinstitute.net/). - Preparing me for HTML, CSS and JS.
 [Favicon](https://favicon.io/). - I used this site to download and implement a favicon to my site.
+[Fixed Footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) W3schools helped me create a sticky footer.
