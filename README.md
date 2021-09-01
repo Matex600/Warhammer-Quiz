@@ -35,7 +35,7 @@ It is recommended for users to open any links found in this README with Ctrl + l
 ## Colour Scheme
 * color: rgba(29, 29, 27, 0.9); Site background with transparency 0.9 to create my desired effect.
 * color: #FFD700; is used for the sites "game-area" I feel it fits with my chosen theme and helps with readability.
-* for when the user hovers over a button as well as an underline to help the user with cursor location.
+* color: #00008B; for when the user hovers over a button as well as an underline to help the user with cursor location.
 * color: #000000; I chose this colour for text inside the gold game areas to improve readability.#
 * I have primarily used Hex for my colour scheme but to reach the effect for my background I used rgba also.
 # Site Features
