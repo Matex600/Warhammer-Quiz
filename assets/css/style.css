@@ -14,6 +14,51 @@ body {
     background: rgba(29, 29, 27, 0.9);
 }
 
+/* Header, Navbar */
+
+h2 {
+    font-family: 'Inknut Antiqua', sans-serif;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    font-size: 1.7em;
+}
+
+nav {
+    margin-top: 4em;
+}
+
+.navbar {
+    letter-spacing: 1.5px;
+    font-size: 1.25em;
+    text-align: center;
+    color: #000000;
+}
+
+.navbar li {
+    display: inline;
+    list-style-type: none;
+}
+
+.navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    margin: 10px;
+    border: 3px ridge #000000;
+    background: #FFD700;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    color: ;
+}
+
+
+
+
+
+/* Fixed footer with help from W3schools */
+
 footer {
     position: fixed;
     left: 0;
@@ -33,13 +78,6 @@ footer p {
     max-width: 100%;
     height: auto;
 }
-
-h2 {
-    font-family: 'Inknut Antiqua', sans-serif;
-    margin-bottom: 90px;
-    font-size: 1.7em;
-}
-
 
 .game-box {
     width: 100vw;
@@ -69,15 +107,11 @@ h2 {
     color: #000000;
     background: #FFD700;
     margin: 1em;
-    padding: 0.25em;
+    padding: 5px;
     border: 3px ridge #000000;
     border-radius: 5px;
 }
 
-#play-btn {
-    
-}
+#play-btn {}
 
-#score-btn {
-    
-}
+#score-btn {}
