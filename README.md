@@ -6,13 +6,15 @@
 This website is created with Javascript and is a quiz, with content from Warhammer Fantasy Battles.
 
 My goal is to create a functioning, responsive and fun quiz that incorporates Javascript in its fundemental design.
+
+[Click here To View Site Live!](https://matex600.github.io/Warhammer-Quiz/)
+
+It is recommended for users to open any links found in this README with Ctrl + left mouse button or Control + click on Mac.
 # UX
 
 ## User Stories
 * New Users 
   1. **
-
-
 
 * Returning Users
   1. **
