@@ -19,6 +19,10 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 ## I have included the following for my target audience
 
+* Home page with navigation, game start and leaderboard buttons.
+* About page with navigation, showing rules and some background on game.
+*  A hero-image that is catchy and has "Warhammer" in its content helping users identify site.
+
 # Site Design
 
 ## Composition
