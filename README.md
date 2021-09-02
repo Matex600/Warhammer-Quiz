@@ -21,7 +21,7 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 * Home page with navigation, game start and leaderboard buttons.
 * About page with navigation, showing rules and some background on game.
-*  A hero-image that is catchy and has "Warhammer" in its content helping users identify site.
+* A hero-image that is catchy and has "Warhammer" in its content helping users identify site.
 
 # Site Design
 
@@ -42,7 +42,9 @@ It is recommended for users to open any links found in this README with Ctrl + l
 * I have primarily used Hex for my colour scheme but to reach the effect for my background I used rgba also.
 * All the colours have been chosen to fit with the theme I am going for as well as having high accessibility.
 
-![Eightshapes Contrast Grid](assets/readme-files/Contrast-Grid-P2.png)
+![Eightshapes Contrast Grid](assets/readme-files/Contrast-Grid-P2.png) 
+
+[Eightshapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%231D1D1B%2Crgba(29%2C%2029%2C%2027%2C%201)%0D%0A%23FFD700%0D%0A%23000000%2C%20Black%0D%0A%2300008B%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 
 # Site Features
 

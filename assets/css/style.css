@@ -10,7 +10,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
-    color: #FFD700;
+    color: #000000;
     background: rgba(29, 29, 27, 0.9);
 }
 
@@ -21,6 +21,7 @@ h2 {
     margin-top: -100px;
     margin-bottom: 50px;
     font-size: 1.7em;
+    color: #FFD700;
 }
 
 nav {
@@ -70,6 +71,7 @@ footer {
 footer p {
     padding-right: 50px;
     padding-bottom: 25px;
+    color: #FFD700;
 }
 
 #hero-image {
@@ -135,8 +137,5 @@ a:hover {
     width: 500px;
     border: 3px ridge #000000;
     margin: 5em auto;
-}
-
-.about p {
-    color: #000000;
+    overflow: auto;
 }
