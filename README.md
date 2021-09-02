@@ -48,9 +48,10 @@ It is recommended for users to open any links found in this README with Ctrl + l
 * [JS](https://en.wikipedia.org/wiki/JavaScript). - For Contacting the DOM.
 
 # Libraries and tools
- * [Google fonts](https://fonts.google.com/)
- *
- *
+ * [Google fonts](https://fonts.google.com/). - I used Google Fonts for selecting site fonts.
+ * [Github](https://github.com/). - I used github to store and release project.
+ * [Gitpod](https://www.gitpod.io/). - I used gitpod to create and write code.
+ * [Font Awesome](https://fontawesome.com/). - I used Font Awesome for interesting font icons.
  *
  *
 
@@ -78,7 +79,9 @@ It is recommended for users to open any links found in this README with Ctrl + l
   3. Select main/master in source both are correct.
   4. Once you make a selection the page will automatically refresh.
   5. A link will be provided with succesful deployment.
-  
+
+Link to deployed site. --[Warhammer-Fantasy-Quiz](https://matex600.github.io/Warhammer-Quiz/)--
+
 # Credits
 
 ## Media
@@ -90,4 +93,4 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 [Favicon](https://favicon.io/). - I used this site to download and implement a favicon to my site.
 
-[Fixed Footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp) W3schools helped me create a sticky footer.
+[Fixed Footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp). - W3schools helped me create a sticky footer.
