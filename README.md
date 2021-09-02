@@ -12,7 +12,11 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 ## User Stories
 * New Users 
-  1. **
+  1. As a new user I want see a clearly laid out site.
+  2. As a new user I want to experience a site with good visual design.
+  3. As a new user I want to find a section that shows me the rules of the game.
+  4. As a new user I want the site to have an interactive design
+  5. As a new user I want ease of access and fluid navigation through different pages and game functions.
 
 * Returning Users
   1. **
