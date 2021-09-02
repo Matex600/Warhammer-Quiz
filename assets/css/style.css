@@ -138,4 +138,9 @@ a:hover {
     border: 3px ridge #000000;
     margin: 5em auto;
     overflow: auto;
+    text-align: center;
+}
+
+.about ul {
+    padding: 10px;
 }
