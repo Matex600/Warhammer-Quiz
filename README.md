@@ -1,15 +1,13 @@
 # Warhammer Fantasy Quiz
 
-##
-
 # Introduction
-This website is created with Javascript and is a quiz, with content from Warhammer Fantasy Battles.
+This website aims to test users on their knowledge in the Warhammer Fantasy Universe.
 
 My goal is to create a functioning, responsive and fun quiz that incorporates Javascript in its fundemental design.
 
 [Click here To View Site Live!](https://matex600.github.io/Warhammer-Quiz/)
 
-It is recommended for users to open any links found in this README with Ctrl + left mouse button or Control + click on Mac.
+It is recommended for users to open any links found in this README with Ctrl + left mouse button (Windows) Control + click (Mac)
 # UX
 
 ## User Stories
@@ -38,6 +36,7 @@ It is recommended for users to open any links found in this README with Ctrl + l
 * color: #00008B; for when the user hovers over a button as well as an underline to help the user with cursor location.
 * color: #000000; I chose this colour for text inside the gold game areas to improve readability.#
 * I have primarily used Hex for my colour scheme but to reach the effect for my background I used rgba also.
+* All the colours have been chosen to fit with the theme I am going for as well as having high accessibility.
 
 ![Eightshapes Contrast Grid](assets/readme-files/Contrast-Grid-P2.png)
 
