@@ -39,7 +39,7 @@ It is recommended for users to open any links found in this README with Ctrl + l
 * color: #000000; I chose this colour for text inside the gold game areas to improve readability.#
 * I have primarily used Hex for my colour scheme but to reach the effect for my background I used rgba also.
 
-![Eightshapes Contrast Grid](assets/readme-files/Contrast-Grid P2.png)
+![Eightshapes Contrast Grid](assets/readme-files/Contrast-Grid-P2.png)
 
 # Site Features
 
