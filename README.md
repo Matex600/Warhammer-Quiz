@@ -17,9 +17,13 @@ It is recommended for users to open any links found in this README with Ctrl + l
   3. As a new user I want to find a section that shows me the rules of the game.
   4. As a new user I want the site to have an interactive design
   5. As a new user I want ease of access and fluid navigation through different pages and game functions.
+  6. As a new user I want the site to be responsive on multiple different displays and devices.
 
 * Returning Users
-  1. **
+  1. As a returning user I want to see improvements and additions to game functions and site design.
+  2. As a returning user I want to see more quizes with new and interesting questions.
+  3. As a returning user I want to see continued performance and accessability improvements.
+  4. As a returning user I want to see if I can improve my previous high score.
 
 ## I have included the following for my target audience
 
