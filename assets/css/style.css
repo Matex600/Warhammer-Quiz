@@ -120,6 +120,7 @@ a:hover {
     height: 325px;
     background: #FFD700;
     border: 3px ridge #000000;
+    padding: 15px;
 }
 
 #questions {
@@ -135,8 +136,6 @@ a:hover {
 }
 
 .quiz-btn {
-    float: left;
-    display: block;
     text-decoration: none;
     color: #FFD700;
     margin: 15px 15px 15px 25px;
@@ -144,6 +143,7 @@ a:hover {
     background: rgba(29, 29, 27, 0.9);
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 .quiz-controls {
