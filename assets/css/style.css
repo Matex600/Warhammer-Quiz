@@ -106,13 +106,25 @@ a:hover {
     text-decoration: underline;
 }
 
-#play-btn {}
+.play-btn {}
 
 #score-btn {}
 
 /* quiz page */
+.quiz-game-box {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    background: #FFD700;
+}
 
+#question {
 
+}
 /* About Page */
 
 .about {
