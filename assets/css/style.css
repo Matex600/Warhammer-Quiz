@@ -14,7 +14,7 @@ body {
     background: rgba(29, 29, 27, 0.9);
 }
 
-/* Header, Navbar */
+/* header, navbar */
 
 h2 {
     font-family: 'Inknut Antiqua', sans-serif;
@@ -54,26 +54,7 @@ nav {
     color: #00008B;
 }
 
-
-
-
-
-/* Fixed footer with help from W3schools */
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: right;
-}
-
-footer p {
-    padding-right: 50px;
-    padding-bottom: 25px;
-    color: #FFD700;
-}
-
+/* image css */
 #hero-image {
     display: block;
     margin: 0 auto;
@@ -81,6 +62,7 @@ footer p {
     height: auto;
 }
 
+/* game area and buttons */
 .game-box {
     width: 100vw;
     max-width: 100%;
@@ -143,4 +125,20 @@ a:hover {
 
 .about ul {
     padding: 10px;
+}
+
+/* Fixed footer with help from W3schools */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+footer p {
+    padding-right: 50px;
+    padding-bottom: 25px;
+    color: #FFD700;
 }
