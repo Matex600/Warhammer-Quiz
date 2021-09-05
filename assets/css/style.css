@@ -62,8 +62,8 @@ nav {
     height: auto;
 }
 
-/* game area and buttons */
-.game-box {
+/* home area and buttons */
+.home-box {
     width: 100vw;
     max-width: 100%;
     margin: 0 auto;
@@ -84,7 +84,7 @@ nav {
     display: none;
 }
 
-.game-btn {
+.home-btn {
     font-size: 1.2em;
     text-align: center;
     text-decoration: none;
@@ -97,7 +97,7 @@ nav {
     letter-spacing: 1.5px;
 }
 
-.game-box a:hover {
+.home-box a:hover {
     color: #00008B;
 }
 
@@ -109,6 +109,9 @@ a:hover {
 #play-btn {}
 
 #score-btn {}
+
+/* quiz page */
+
 
 /* About Page */
 
