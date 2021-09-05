@@ -136,7 +136,7 @@ a:hover {
     text-align: center;
 }
 
-.answer-button {
+.quiz-btn {
     float: left;
     display: block;
     text-decoration: none;
@@ -146,6 +146,7 @@ a:hover {
     background: rgba(29, 29, 27, 0.9);
     padding: 5px;
 }
+
 
 /* About Page */
 
