@@ -1,4 +1,22 @@
-// getting html elements and storing them:
+function runQuiz(){
+
+}
+
+function inputQuestions(){
+
+}
+
+function checkAnswer(){
+
+}
+
+function updateScore(){
+
+}
+
+function nextQuestion(){
+    
+}
 
 
 
