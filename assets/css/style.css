@@ -209,3 +209,24 @@ footer p {
     padding-bottom: 25px;
     color: #FFD700;
 }
+
+/* media querys */
+
+@media screen and (max-width: 400px) {
+
+    footer {
+        position: static;
+        text-align: center;
+    }
+
+    footer p {
+        padding-right: 0px;
+    }
+
+    h2 {
+        margin-top: -60px;
+        margin-bottom: 10px;
+        font-size: 1.7em;
+
+    }
+}
