@@ -46,11 +46,13 @@ It is recommended for users to open any links found in this README with Ctrl + l
 * color: rgba(29, 29, 27, 0.9); Site background with transparency 0.9 to create my desired effect.
 * color: #FFD700; is used for the sites "game-area" I feel it fits with my chosen theme and helps with readability.
 * color: #00008B; for when the user hovers over a button as well as an underline to help the user with cursor location.
-* color: #000000; I chose this colour for text inside the gold game areas to improve readability.#
+* color: #000000; I chose this colour for text inside the gold game areas to improve readability.
+* color: #00FF00; I used this color for the score area for a winning point.
+* color: #FFFFFF; I have used this color for negative score in score area.
 * I have primarily used Hex for my colour scheme but to reach the effect for my background I used rgba also.
 * All the colours have been chosen to fit with the theme I am going for as well as having high accessibility.
 
-![Eightshapes Contrast Grid](assets/readme-files/Contrast-Grid-P2.png) 
+![Eightshapes Contrast Grid](assets/readme-files/Contrast-Grid-P2.png)
 
 [Eightshapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%231D1D1B%2Crgba(29%2C%2029%2C%2027%2C%201)%0D%0A%23FFD700%0D%0A%23000000%2C%20Black%0D%0A%2300008B%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 
