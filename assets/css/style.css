@@ -107,8 +107,6 @@ a:hover {
     text-decoration: underline;
 }
 
-#score-btn {}
-
 /* quiz page */
 .quiz-game-box {
     width: 500px;
@@ -163,6 +161,20 @@ a:hover {
     padding: 5px;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
+}
+
+.scores {
+    padding-top: 30px;
+    color: gold;
+    text-align: center;
+}
+
+#add-point {
+    color: #00FF00;
+}
+
+#lose-point {
+    color: #FFFFFF;
 }
 
 /* About Page */
