@@ -224,9 +224,20 @@ footer p {
     }
 
     h2 {
-        margin-top: -60px;
+        margin-top: 0px;
         margin-bottom: 10px;
-        font-size: 1.7em;
+        font-size: 1.4em;
+    }
 
+    nav {
+        margin-top: 2em;
+    }
+
+    .home-box {
+        padding-top: 1em;
+    }
+
+    #home-start {
+        margin-bottom: 20px;
     }
 }
