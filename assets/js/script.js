@@ -61,16 +61,22 @@ function generateQuestions() {
         console.log(i);
         temp = questionsHoldingArray[i];
         tempAnswer = answersHoldingArray[i];
+        tempIncorrectAnswer = incorrectAnswersHoldingArray[i];
         console.log(temp);
         console.log(questionsHoldingArray);
         console.log(tempAnswer);
         console.log(answersHoldingArray);
+        console.log(tempIncorrectAnswer);
+        console.log(incorrectAnswersHoldingArray);
         gameQuestions.push(temp);
         gameAnswers.push(tempAnswer);
+        gameIncorrectAnswers.push(tempIncorrectAnswer);
         questionsHoldingArray.splice(i, 1);
         answersHoldingArray.splice(i, 1);
+        incorrectAnswersHoldingArray.splice(i, 1);
         console.log(gameQuestions);
         console.log(gameAnswers);
+        console.log(gameIncorrectAnswers);
         x++;
     }
 }
