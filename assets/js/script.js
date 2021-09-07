@@ -1,6 +1,7 @@
 const playGame = document.getElementById("play-btn")
 const questionsBox = document.getElementById("questions")
 
+playGame.addEventListener('click' , runQuiz)
 /* get play button 
  add eventlistener on click 
  hide button update class
@@ -83,7 +84,8 @@ function generateQuestions() {
 }
 
 function runQuiz() {
-
+    console.log('play');
+    playGame.classList.add('hidden');
 }
 
 function inputQuestions() {
