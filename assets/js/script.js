@@ -13,7 +13,8 @@ function generateQuestions() {
     let gameQuestions = [];
     const questions = [
         'What is the Empire city of Nuln known for?',
-        'Where do the halflings dwell?', 'Who leads the Dwarfs?',
+        'Where do the halflings dwell?',
+        'Who leads the Dwarfs?',
         'Who is the vampire lord of Sylvania',
         'What other names are the Beastmen also known as?',
         'Who are the Dawi-Zharr?',
@@ -23,13 +24,19 @@ function generateQuestions() {
         'Who is the dark god of pestilence?'
     ];
     let questionsHoldingArray = [...questions];
-
+    console.log(questionsHoldingArray.length)
     x = 0;
-    while (x > questions.length) {
-        i = Math.floor(Math.random() * questionHoldingArray.length);
-
+    while (x < questions.length) {
+        i = Math.floor(Math.random() * questionsHoldingArray.length);
+        console.log(i);
+        temp = questionsHoldingArray[i];
+        console.log(temp);
+        console.log(questionsHoldingArray);
+        gameQuestions.push(temp);
+        questionsHoldingArray.splice(i, 1);
+        console.log(gameQuestions);
+        x++;
     }
-
 }
 
 function runQuiz() {
