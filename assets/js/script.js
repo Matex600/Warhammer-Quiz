@@ -60,11 +60,17 @@ function generateQuestions() {
         i = Math.floor(Math.random() * questionsHoldingArray.length);
         console.log(i);
         temp = questionsHoldingArray[i];
+        tempAnswer = answersHoldingArray[i];
         console.log(temp);
         console.log(questionsHoldingArray);
+        console.log(tempAnswer);
+        console.log(answersHoldingArray);
         gameQuestions.push(temp);
+        gameAnswers.push(tempAnswer);
         questionsHoldingArray.splice(i, 1);
+        answersHoldingArray.splice(i, 1);
         console.log(gameQuestions);
+        console.log(gameAnswers);
         x++;
     }
 }
