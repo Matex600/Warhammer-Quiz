@@ -11,6 +11,8 @@ const questionsBox = document.getElementById("questions")
 
 function generateQuestions() {
     let gameQuestions = [];
+    let gameAnswers = [];
+    let gameIncorrectAnswers = [];
     const questions = [
         'What is the Empire city of Nuln known for?',
         'Where do the halflings dwell?',
@@ -24,7 +26,35 @@ function generateQuestions() {
         'Who is the dark god of pestilence?'
     ];
     let questionsHoldingArray = [...questions];
-    console.log(questionsHoldingArray.length)
+    console.log(questionsHoldingArray.length);
+    const answers = [
+        'Imperial Gunnery school',
+        'The Moot',
+        'Thorgrim Grudgebearer',
+        'Manfredd von Carstein',
+        'The Cloven ones',
+        'Chaos Dwarfs',
+        'Naggaroth',
+        'Skavenblight',
+        'Sigmar',
+        'Nurgle'
+    ];
+    let answersHoldingArray = [...answers];
+    console.log(answersHoldingArray.length);
+    const incorrectAnswers = [
+        'Imperial Wizard school',
+        'Karak eight peaks',
+        'Ungrim Ironfist',
+        'Vlad von Carstein',
+        'The Old ones',
+        'Chaos Ogres',
+        'Ulthuan',
+        'Hellpit',
+        'Lady of the Lake',
+        'Khorne'
+    ];
+    let incorrectAnswersHoldingArray = [...incorrectAnswers];
+    console.log(incorrectAnswersHoldingArray.length);
     x = 0;
     while (x < questions.length) {
         i = Math.floor(Math.random() * questionsHoldingArray.length);
