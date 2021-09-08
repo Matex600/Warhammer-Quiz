@@ -1,8 +1,8 @@
 const playGame = document.getElementById("play-btn")
 const questionsBox = document.getElementById("questions")
 const getQuestionElement = document.getElementById("question")
-const getAnswersElement = document.getElementById("answers")
-
+const getAnswerElement = document.getElementById("answer")
+const getIncorrectAnswerElement = document.getElementById("incorrect")
 
 
 playGame.addEventListener('click', runQuiz)
@@ -30,14 +30,14 @@ time you play */
     let gameIncorrectAnswers = [];
     const questions = [
         'What is the Empire city of Nuln known for?',
-        'Where do the halflings dwell?',
-        'Who leads the Dwarfs?',
+        'Where do the halflings call home?',
+        'Which of these dawi leads the Dwarfs?',
         'Who is the vampire lord of Sylvania',
-        'What other names are the Beastmen also known as?',
-        'Who are the Dawi-Zharr?',
+        'What are the Beastmen also known as?',
+        'What is the English word forDawi-Zharr?',
         'What is the home land of the druchii called?',
         'What is the capital of the Skaven',
-        'Who is the primary worshipped deity in the Empire?',
+        'What is the worshipped deity in the Empire?',
         'Who is the dark god of pestilence?'
     ];
     let questionsHoldingArray = [...questions];
@@ -73,11 +73,7 @@ time you play */
         answers[i] = true;
         i++
     }
-    i = 0
-    while (i < incorrectAnswers.length) {
-        incorrectAnswers[i] = false;
-        i++
-    }
+    
     let incorrectAnswersHoldingArray = [...incorrectAnswers];
     console.log(incorrectAnswersHoldingArray.length);
     x = 0;
@@ -114,6 +110,8 @@ function runQuiz() {
 
 function inputQuestions() {
     getQuestionElement.innerText = gameQuestions[0]
+    getAnswerElement.innerText = gameAnswers[0]
+    getIncorrectAnswerElement.innerText = gameIncorrectAnswers[0]
 }
 
 function checkAnswer() {
