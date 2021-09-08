@@ -1,5 +1,7 @@
 const playGame = document.getElementById("play-btn")
 const questionsBox = document.getElementById("questions")
+const getQuestionElement = document.getElementById("question")
+const getAnswersElement = document.getElementById("answers")
 
 playGame.addEventListener('click', runQuiz)
 /* get play button 
@@ -107,6 +109,7 @@ function runQuiz() {
     console.log('play');
     playGame.classList.add('hidden');
     questionsBox.classList.remove('hidden');
+    nextQuestion()
 }
 
 function inputQuestions() {
