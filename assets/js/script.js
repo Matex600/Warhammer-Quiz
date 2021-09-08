@@ -1,7 +1,7 @@
 const playGame = document.getElementById("play-btn")
 const questionsBox = document.getElementById("questions")
 
-playGame.addEventListener('click' , runQuiz)
+playGame.addEventListener('click', runQuiz)
 /* get play button 
  add eventlistener on click 
  hide button update class
@@ -9,13 +9,23 @@ playGame.addEventListener('click' , runQuiz)
  get question from questions array randomly
  display question 1
  display possible answers 1
-*/ 
+*/
+
+/* function to create array
+for questions, answers and
+incorrect answers with while
+loop for answers and incorrectAnswers
+to set true and false value to answers in
+quiz, then a while loop to create copies and
+randomise questions and answers arrays to get
+different set of questions and answers every
+time you play */
 
 function generateQuestions() {
     let gameQuestions = [];
     let gameAnswers = [];
     let gameIncorrectAnswers = [];
-    const questions = [
+    const questions = [ 
         'What is the Empire city of Nuln known for?',
         'Where do the halflings dwell?',
         'Who leads the Dwarfs?',
