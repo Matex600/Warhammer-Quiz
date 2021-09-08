@@ -55,6 +55,16 @@ function generateQuestions() {
         'Lady of the Lake',
         'Khorne'
     ];
+    i = 0
+    while (i < answers.length) {
+        answers[i] = true;
+        i++
+    }
+    i = 0
+    while (i < incorrectAnswers.length) {
+        incorrectAnswers[i] = false;
+        i++
+    }
     let incorrectAnswersHoldingArray = [...incorrectAnswers];
     console.log(incorrectAnswersHoldingArray.length);
     x = 0;
@@ -86,6 +96,7 @@ function generateQuestions() {
 function runQuiz() {
     console.log('play');
     playGame.classList.add('hidden');
+    questionsBox.classList.remove('hidden');
 }
 
 function inputQuestions() {
