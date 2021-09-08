@@ -3,6 +3,8 @@ const questionsBox = document.getElementById("questions")
 const getQuestionElement = document.getElementById("question")
 const getAnswersElement = document.getElementById("answers")
 
+
+
 playGame.addEventListener('click', runQuiz)
 /* get play button 
  add eventlistener on click 
@@ -23,11 +25,10 @@ randomise questions and answers arrays to get
 different set of questions and answers every
 time you play */
 
-function generateQuestions() {
     let gameQuestions = [];
     let gameAnswers = [];
     let gameIncorrectAnswers = [];
-    const questions = [ 
+    const questions = [
         'What is the Empire city of Nuln known for?',
         'Where do the halflings dwell?',
         'Who leads the Dwarfs?',
@@ -103,17 +104,16 @@ function generateQuestions() {
         console.log(gameIncorrectAnswers);
         x++;
     }
-}
 
 function runQuiz() {
     console.log('play');
     playGame.classList.add('hidden');
     questionsBox.classList.remove('hidden');
-    nextQuestion()
+    inputQuestions()
 }
 
 function inputQuestions() {
-
+    getQuestionElement.innerText = gameQuestions[0]
 }
 
 function checkAnswer() {
@@ -125,5 +125,5 @@ function updateScore() {
 }
 
 function nextQuestion() {
-
+    
 }
