@@ -6,7 +6,8 @@ const getIncorrectAnswerElement = document.getElementById("incorrect")
 const gorkIncreaseElement = document.getElementById("add-point")
 const darkGodsIncreaseElement = document.getElementById("lose-point")
 let questionNumber = 0
-
+let gorkIzPleased = 0
+let youDismayTheDarkGods = 0
 
 playGame.addEventListener('click', runQuiz)
 getAnswerElement.addEventListener('click', (e) => checkAnswer(e))
@@ -30,8 +31,8 @@ randomise questions and answers arrays to get
 different set of questions and answers every
 time you play */
 
-let gameQuestions = [];
-let gameAnswers = [];
+// let questions = [];
+let answers = [];
 let gameIncorrectAnswers = [];
 // const questions = [
 //     'What is the Empire city of Nuln known for?',
@@ -168,12 +169,12 @@ const questions = [{
     },
 ]
 
-x = 0;
+let x = 0;
 
 while (x < questions.length) {
     let i = Math.floor(Math.random() * questions.length);
-    gameQuestions.push(questionsHoldingArray[i]);
-    questionsHoldingArray.splice(i, 1);
+    questions.push(questions[i]);
+    questions.splice(i, 1);
     x++;
 }
 
@@ -191,27 +192,27 @@ function inputQuestions(pos) {
     getIncorrectAnswerElement.dataset.correct = questions[pos].answers[0].correct
 }
 
-let gorkIzPleased = 0
-let youDismayTheDarkGods = 0
-
 function checkAnswer(e) {
     if (e.target.dataset.correct) {
         questionNumber++;
         inputQuestions(questionNumber)
         gorkIzPleased += 1;
+        gorkIncreaseElement.innerHTML 
     } else {
         youDismayTheDarkGods += 1;
+        youDismayTheDarkGods.innerHTML;
     }
     // set innner html of gork and you.
     // check if game is complete here
-    // if ((questions.length - (gorkIzpleased + youdismaythedarkgods)) -= 0) {
-    //     //game is complete
-    //     if (gorkIzPleased > youDismayTheDarkGods) {
-    //         // you win 
-    //     } else if (gorkIzPleased === youDismayTheDarkGods) {
-    //         // you draw
-    //     } else {
-    //         // you lose
-    //     }
-    // }
+    if ((questions.length - (gorkIzPleased + youDismayTheDarkGods)) <= 0) {
+        //game is complete
+        if (gorkIzPleased > youDismayTheDarkGods) {
+            // you win
+            `you got ${gorkIzPleased} questions right`
+        } else if (gorkIzPleased === youDismayTheDarkGods) {
+            // you draw
+        } else {
+            // you lose
+        }
+    }
 }
