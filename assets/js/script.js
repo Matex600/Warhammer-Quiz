@@ -31,22 +31,6 @@ randomise questions and answers arrays to get
 different set of questions and answers every
 time you play */
 
-// let questions = [];
-let answers = [];
-let gameIncorrectAnswers = [];
-// const questions = [
-//     'What is the Empire city of Nuln known for?',
-//     'Where do the halflings call home?',
-//     'Which of these dawi leads the Dwarfs?',
-//     'Who is the vampire lord of Sylvania',
-//     'What are the Beastmen also known as?',
-//     'What is the English word forDawi-Zharr?',
-//     'What is the home land of the druchii called?',
-//     'What is the capital of the Skaven',
-//     'What is the worshipped deity in the Empire?',
-//     'Who is the dark god of pestilence?'
-// ];
-
 const questions = [{
         question: 'What is the Empire city of Nuln known for?',
         answers: [{
@@ -173,10 +157,13 @@ let x = 0;
 
 while (x < questions.length) {
     let i = Math.floor(Math.random() * questions.length);
-    questions.push(questions[i]);
+    const questionsCopy = [...questions]
     questions.splice(i, 1);
+    questions.push(questionsCopy[i]);
     x++;
 }
+
+
 
 function runQuiz() {
     playGame.classList.add('hidden');
@@ -185,34 +172,45 @@ function runQuiz() {
 }
 
 function inputQuestions(pos) {
-    getQuestionElement.innerText = questions[pos].question
-    getAnswerElement.innerText = questions[pos].answers[1].answer
-    getAnswerElement.dataset.correct = questions[pos].answers[1].correct
-    getIncorrectAnswerElement.innerText = questions[pos].answers[0].answer
-    getIncorrectAnswerElement.dataset.correct = questions[pos].answers[0].correct
+    if (pos < questions.length) {
+        getQuestionElement.innerText = questions[pos].question
+        getAnswerElement.innerText = questions[pos].answers[1].answer
+        getAnswerElement.dataset.correct = questions[pos].answers[1].correct
+        getIncorrectAnswerElement.innerText = questions[pos].answers[0].answer
+        getIncorrectAnswerElement.dataset.correct = questions[pos].answers[0].correct
+    }
+
 }
 
 function checkAnswer(e) {
-    if (e.target.dataset.correct) {
-        questionNumber++;
-        inputQuestions(questionNumber)
+    if (e.target.dataset.correct === "true") {
         gorkIzPleased += 1;
-        gorkIncreaseElement.innerHTML 
+        gorkIncreaseElement.innerHTML = gorkIzPleased;
     } else {
         youDismayTheDarkGods += 1;
-        youDismayTheDarkGods.innerHTML;
+        darkGodsIncreaseElement.innerHTML = youDismayTheDarkGods;
     }
-    // set innner html of gork and you.
+    questionNumber++;
+    inputQuestions(questionNumber)
+
     // check if game is complete here
     if ((questions.length - (gorkIzPleased + youDismayTheDarkGods)) <= 0) {
-        //game is complete
+        console.log("game complete");
         if (gorkIzPleased > youDismayTheDarkGods) {
-            // you win
-            `you got ${gorkIzPleased} questions right`
+            console.log("win");
+            getQuestionElement.innerText = `You win!! .. you got ${gorkIzPleased} questions right`
+            getAnswerElement.innerText = ``
+            getIncorrectAnswerElement.innerText = ``
         } else if (gorkIzPleased === youDismayTheDarkGods) {
-            // you draw
+            console.log("draw");
+            getQuestionElement.innerText = `You drew.. you got ${gorkIzPleased} questions right`
+            getAnswerElement.innerText = ``
+            getIncorrectAnswerElement.innerText = ``
         } else {
-            // you lose
+            console.log("lose");
+            getQuestionElement.innerText = `You lose :( .. you got ${gorkIzPleased} questions right`
+            getAnswerElement.innerText = ``
+            getIncorrectAnswerElement.innerText = ``
         }
     }
 }
