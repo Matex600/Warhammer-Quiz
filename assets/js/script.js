@@ -34,7 +34,6 @@ resetGame.addEventListener('click', resetQuiz)
 // randomise questions to get
 // different set of questions and answers 
 // every time you play
-
 const questions = [{
         question: 'What is the Empire city of Nuln known for?',
         answers: [{
@@ -224,31 +223,25 @@ function checkAnswer(e) {
 
             getQuestionElement.innerText = `You win!! .. you got ${gorkIzPleased} questions right`
             resetGame.innerText = `Try Again?`
-            resetGame.classList.remove("hidden")
-            getAnswerElement.innerText = ``
-            getAnswerElement.classList.add("hidden")
-            getIncorrectAnswerElement.innerText = ``
-            getIncorrectAnswerElement.classList.add("hidden")
+
 
         } else if (gorkIzPleased === youDismayTheDarkGods) {
 
             getQuestionElement.innerText = `You drew :() you got ${gorkIzPleased} questions right`
             resetGame.innerText = `Try Again?`
-            resetGame.classList.remove("hidden")
-            getAnswerElement.innerText = ``
-            getAnswerElement.classList.add("hidden")
-            getIncorrectAnswerElement.innerText = ``
-            getIncorrectAnswerElement.classList.add("hidden")
+
+
         } else {
 
             getQuestionElement.innerText = `You lose :( .. you got ${gorkIzPleased} questions right`
             resetGame.innerText = `Try Again?`
-            resetGame.classList.remove("hidden")
-            getAnswerElement.innerText = ``
-            getAnswerElement.classList.add("hidden")
-            getIncorrectAnswerElement.innerText = ``
-            getIncorrectAnswerElement.classList.add("hidden")
+
         }
+        resetGame.classList.remove("hidden")
+        getAnswerElement.innerText = ``
+        getAnswerElement.classList.add("hidden")
+        getIncorrectAnswerElement.innerText = ``
+        getIncorrectAnswerElement.classList.add("hidden")
     }
 }
 
