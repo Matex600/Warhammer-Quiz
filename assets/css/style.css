@@ -118,6 +118,12 @@ a:hover {
     width: 80%;
 }
 
+.flex.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 #question {
     color: #000000;
@@ -306,9 +312,10 @@ footer {
     }
 }
 
-@media screen and (mad-width: 300px) {
+@media screen and (max-width: 300px) {
     .about { 
         font-size: 18px;
+        height: 250px;
     }
     
     .about ul {

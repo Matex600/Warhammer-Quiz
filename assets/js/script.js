@@ -18,10 +18,10 @@ let youDismayTheDarkGods = 0
 
 // click event listeners for starting game
 // click event for question buttons
-playGame.addEventListener('click', runQuiz())
+playGame.addEventListener('click', runQuiz)
 getAnswerElement.addEventListener('click', (e) => checkAnswer(e))
 getIncorrectAnswerElement.addEventListener('click', (e) => checkAnswer(e))
-resetGame.addEventListener('click', resetQuiz())
+resetGame.addEventListener('click', resetQuiz)
 
 
 
@@ -229,7 +229,7 @@ function checkAnswer(e) {
             getAnswerElement.classList.add("hidden")
             getIncorrectAnswerElement.innerText = ``
             getIncorrectAnswerElement.classList.add("hidden")
-            
+
         } else if (gorkIzPleased === youDismayTheDarkGods) {
 
             getQuestionElement.innerText = `You drew :() you got ${gorkIzPleased} questions right`
