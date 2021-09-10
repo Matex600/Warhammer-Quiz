@@ -40,7 +40,7 @@ It is recommended for users to open any links found in this README with Ctrl + l
   well together and compliment my site. I have used sans serif as backup font,
   this is a general font and easy to read.
 * I have used appropriate images for the project idea and purpose.
-* The font size I have used is 1.7em for headings, 1.5em for question and other body text and 1.2em for buttons.
+* The font size I have used is 1.7em for headings, 1.3em for question and other body text and 16px for buttons.
   I feel that these font sizes work well and emphasise the importance of the elements.
 ## Colour Scheme
 * color: rgba(29, 29, 27, 0.9); Site background with transparency 0.9 to create my desired effect.

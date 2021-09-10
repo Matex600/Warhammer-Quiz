@@ -96,7 +96,7 @@ const questions = [{
         ]
     },
     {
-        question: 'Who are the Dawi-Zharr?',
+        question: 'What is the "English" word for Dawi-Zharr?',
         answers: [{
                 correct: false,
                 answer: 'Chaos Ogres',
@@ -120,7 +120,7 @@ const questions = [{
         ]
     },
     {
-        question: 'What is the capital of the Skaven?',
+        question: 'What is the capital of the Skaven race?',
         answers: [{
                 correct: false,
                 answer: 'Hellpit',
@@ -252,7 +252,8 @@ function checkAnswer(e) {
     }
 }
 
-
+// function to reset quiz
+// returns quiz to original state
 function resetQuiz() {
     questionNumber = 0
     gorkIzPleased = 0
