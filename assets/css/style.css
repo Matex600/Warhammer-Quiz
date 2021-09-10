@@ -115,7 +115,7 @@ a:hover {
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 325px;
+    height: 290px;
     background: #FFD700;
     border: 3px ridge #000000;
     padding: 15px;
@@ -128,7 +128,7 @@ a:hover {
 
 #question {
     color: #000000;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Inknut Antiqua', sans-serif;
     text-align: center;
 }
@@ -202,42 +202,49 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: right;
-}
-
-footer p {
-    padding-right: 50px;
-    padding-bottom: 25px;
     color: #FFD700;
 }
 
-/* media querys */
+/* media queries */
+
+@media screen and (max-width: 600px) {
+
+}
+
+
 
 @media screen and (max-width: 400px) {
-
     footer {
-        position: static;
+        position: absolute;
         text-align: center;
-    }
-
-    footer p {
-        padding-right: 0px;
+        height: 60px;
     }
 
     h2 {
         margin-top: 0px;
         margin-bottom: 10px;
-        font-size: 1.4em;
+        font-size: 1em;
     }
 
     nav {
         margin-top: 2em;
     }
 
+    .navbar a {
+        font-size: 22px;
+    }
+
+    .home-btn {
+        font-size: 22px;
+    }
+
     .home-box {
-        padding-top: 1em;
+        padding-top: 0;
     }
 
     #home-start {
-        margin-bottom: 20px;
+        margin-bottom: -30px;
     }
 }
+
+   
