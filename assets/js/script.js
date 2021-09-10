@@ -1,3 +1,4 @@
+// targetting elements by id
 const playGame = document.getElementById("play-btn")
 const questionsBox = document.getElementById("questions")
 const getQuestionElement = document.getElementById("question")
@@ -5,31 +6,30 @@ const getAnswerElement = document.getElementById("answer")
 const getIncorrectAnswerElement = document.getElementById("incorrect")
 const gorkIncreaseElement = document.getElementById("add-point")
 const darkGodsIncreaseElement = document.getElementById("lose-point")
+
+
+// let question numbers so it starts at 0 index in array
+// let scores 0 to increment with answers
 let questionNumber = 0
 let gorkIzPleased = 0
 let youDismayTheDarkGods = 0
 
+
+// click event listeners for starting game
+// click event for question buttons
 playGame.addEventListener('click', runQuiz)
 getAnswerElement.addEventListener('click', (e) => checkAnswer(e))
 getIncorrectAnswerElement.addEventListener('click', (e) => checkAnswer(e))
-/* get play button 
- add eventlistener on click 
- hide button update class
- display quiz
- get question from questions array randomly
- display question 1
- display possible answers 1
-*/
 
-/* function to create array
-for questions, answers and
-incorrect answers with while
-loop for answers and incorrectAnswers
-to set true and false value to answers in
-quiz, then a while loop to create copies and
-randomise questions and answers arrays to get
-different set of questions and answers every
-time you play */
+
+
+// question object array
+// for questions, answers and
+// incorrect answers with while
+// loop to create copies and
+// randomise questions to get
+// different set of questions and answers 
+// every time you play
 
 const questions = [{
         question: 'What is the Empire city of Nuln known for?',
@@ -153,24 +153,37 @@ const questions = [{
     },
 ]
 
-let x = 0;
-
-while (x < questions.length) {
-    let i = Math.floor(Math.random() * questions.length);
-    const questionsCopy = [...questions]
-    questions.splice(i, 1);
-    questions.push(questionsCopy[i]);
-    x++;
+function randomQuestions() {
+    let x = 0;
+    while (x < questions.length) {
+        let i = Math.floor(Math.random() * questions.length);
+        const questionsCopy = [...questions]
+        questions.splice(i, 1);
+        questions.push(questionsCopy[i]);
+        x++;
+    }
 }
 
 
-
+// get play button 
+//  add eventlistener on click 
+//  hide button update class
+//  display quiz
+//  get question from questions array randomly
+//  display question 1 - 10
+//  display possible answers 1 - 10
+//  check answer
+//  add score to gorkIzPleased for correct
+//  add score to youDismayTheDarkGods if incorrect
+//  communicate to player upong game completion 
+//  win, draw or loss.
 function runQuiz() {
     playGame.classList.add('hidden');
     questionsBox.classList.remove('hidden');
     inputQuestions(0)
 }
 
+// updates view with determined question
 function inputQuestions(pos) {
     if (pos < questions.length) {
         getQuestionElement.innerText = questions[pos].question
@@ -182,6 +195,12 @@ function inputQuestions(pos) {
 
 }
 
+
+// checks answers for true or false
+// adds corresponding game points
+// for selected answer
+// increments questions after selecting
+// and clicking answer
 function checkAnswer(e) {
     if (e.target.dataset.correct === "true") {
         gorkIzPleased += 1;
@@ -194,23 +213,36 @@ function checkAnswer(e) {
     inputQuestions(questionNumber)
 
     // check if game is complete here
+    // displays results to user at
+    // end of game
     if ((questions.length - (gorkIzPleased + youDismayTheDarkGods)) <= 0) {
-        console.log("game complete");
         if (gorkIzPleased > youDismayTheDarkGods) {
-            console.log("win");
+
             getQuestionElement.innerText = `You win!! .. you got ${gorkIzPleased} questions right`
             getAnswerElement.innerText = ``
             getIncorrectAnswerElement.innerText = ``
         } else if (gorkIzPleased === youDismayTheDarkGods) {
-            console.log("draw");
-            getQuestionElement.innerText = `You drew.. you got ${gorkIzPleased} questions right`
+
+            getQuestionElement.innerText = `You drew :() you got ${gorkIzPleased} questions right`
             getAnswerElement.innerText = ``
             getIncorrectAnswerElement.innerText = ``
         } else {
-            console.log("lose");
+
             getQuestionElement.innerText = `You lose :( .. you got ${gorkIzPleased} questions right`
             getAnswerElement.innerText = ``
             getIncorrectAnswerElement.innerText = ``
         }
     }
 }
+
+
+function resetQuiz() {
+    questionNumber = 0
+    gorkIzPleased = 0
+    youDismayTheDarkGods = 0
+    randomQuestions()
+    gorkIncreaseElement.innerHTML = gorkIzPleased;
+    darkGodsIncreaseElement.innerHTML = youDismayTheDarkGods;
+    runQuiz()
+};
+randomQuestions()
