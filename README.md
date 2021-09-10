@@ -56,6 +56,34 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 [Eightshapes Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%231D1D1B%2Crgba(29%2C%2029%2C%2027%2C%201)%0D%0A%23FFD700%0D%0A%23000000%2C%20Black%0D%0A%2300008B%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
 
+## Wireframes
+
+### Wireframes created using Balsamiq
+
+### PC
+
+![Pc home](assets/readme-files/pc-home-wireframes.PNG)
+
+![Pc quiz](assets/readme-files/pc-quiz-wireframes.PNG)
+
+![Pc about](assets/readme-files/pc-about-wireframe.PNG)
+
+### Tablet
+
+![Tablet home](assets/readme-files/tablet-home-wireframe.png)
+
+![Tablet quiz](assets/readme-files/tablet-quiz-wireframe.PNG)
+
+![Tablet about](assets/readme-files/tablet-about-wireframe.png)
+
+### Mobile
+
+![Mobile home](assets/readme-files/mobile-home-wireframes.PNG)
+
+![Mobile quiz](assets/readme-files/mobile-quiz-wireframe.PNG)
+
+![Mobile about](assets/readme-files/mobile-about-wireframe.PNG)
+
 # Site Features
 
 # Technologies Useds
@@ -114,3 +142,5 @@ Link to deployed site. --[Warhammer-Fantasy-Quiz](https://matex600.github.io/War
 [Fixed Footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp). - W3schools helped me create a sticky footer.
 
 [Love Maths - Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/a8ec361b95e94c25bf8a821654bd57bc/). - Love maths walkthrough helped me implement score system html.
+
+[Balsamiq](https://balsamiq.com/). - Used to create my basic wireframes.
