@@ -74,13 +74,6 @@ nav {
     padding-top: 6em;
 }
 
-.flex.box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .hidden {
     display: none;
 }
@@ -181,7 +174,7 @@ a:hover {
 
 .about {
     background: #FFD700;
-    height: 350px;
+    height: 250px;
     max-width: 100%;
     width: 500px;
     border: 3px ridge #000000;
@@ -208,9 +201,40 @@ footer {
 /* media queries */
 
 @media screen and (max-width: 600px) {
+    footer {
+        position: absolute;
+        text-align: center;
+        height: 60px;
+    }
+
+    h2 {
+        margin-top: -150px;
+        margin-bottom: 20px;
+        font-size: 35px;
+    }
+
+    nav {
+        margin-top: 1em;
+    }
+
+    .navbar {
+        font-size: 1em;
+    }
+
+    .home-btn {
+        font-size: 1em;
+    }
 
 }
 
+@media screen and (max-width: 475px) {
+    .about {
+        font-size: 20px;
+        width: 380px;
+        height: 290px;
+        margin: 4em auto;
+    }
+}
 
 
 @media screen and (max-width: 400px) {
@@ -222,7 +246,7 @@ footer {
 
     h2 {
         margin-top: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         font-size: 1em;
     }
 
@@ -247,4 +271,7 @@ footer {
     }
 }
 
-   
+@media screen and (max-width: 350px) {
+
+    
+}
