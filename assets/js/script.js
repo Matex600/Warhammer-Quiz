@@ -6,6 +6,7 @@ const getAnswerElement = document.getElementById("answer")
 const getIncorrectAnswerElement = document.getElementById("incorrect")
 const gorkIncreaseElement = document.getElementById("add-point")
 const darkGodsIncreaseElement = document.getElementById("lose-point")
+const resetGame = document.getElementById("reset-game")
 
 
 // let question numbers so it starts at 0 index in array
@@ -20,6 +21,9 @@ let youDismayTheDarkGods = 0
 playGame.addEventListener('click', runQuiz)
 getAnswerElement.addEventListener('click', (e) => checkAnswer(e))
 getIncorrectAnswerElement.addEventListener('click', (e) => checkAnswer(e))
+resetGame.addEventListener('click', resetQuiz)
+
+
 
 
 
@@ -219,18 +223,31 @@ function checkAnswer(e) {
         if (gorkIzPleased > youDismayTheDarkGods) {
 
             getQuestionElement.innerText = `You win!! .. you got ${gorkIzPleased} questions right`
+            resetGame.innerText = `Try Again?`
+            resetGame.classList.remove("hidden")
             getAnswerElement.innerText = ``
+            getAnswerElement.classList.add("hidden")
             getIncorrectAnswerElement.innerText = ``
+            getIncorrectAnswerElement.classList.add("hidden")
+            
         } else if (gorkIzPleased === youDismayTheDarkGods) {
 
             getQuestionElement.innerText = `You drew :() you got ${gorkIzPleased} questions right`
+            resetGame.innerText = `Try Again?`
+            resetGame.classList.remove("hidden")
             getAnswerElement.innerText = ``
+            getAnswerElement.classList.add("hidden")
             getIncorrectAnswerElement.innerText = ``
+            getIncorrectAnswerElement.classList.add("hidden")
         } else {
 
             getQuestionElement.innerText = `You lose :( .. you got ${gorkIzPleased} questions right`
+            resetGame.innerText = `Try Again?`
+            resetGame.classList.remove("hidden")
             getAnswerElement.innerText = ``
+            getAnswerElement.classList.add("hidden")
             getIncorrectAnswerElement.innerText = ``
+            getIncorrectAnswerElement.classList.add("hidden")
         }
     }
 }
@@ -244,5 +261,8 @@ function resetQuiz() {
     gorkIncreaseElement.innerHTML = gorkIzPleased;
     darkGodsIncreaseElement.innerHTML = youDismayTheDarkGods;
     runQuiz()
+    resetGame.classList.add("hidden")
+    getAnswerElement.classList.remove("hidden")
+    getIncorrectAnswerElement.classList.remove("hidden")
 };
 randomQuestions()
