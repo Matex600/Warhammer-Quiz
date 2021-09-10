@@ -174,7 +174,7 @@ a:hover {
 
 .about {
     background: #FFD700;
-    height: 250px;
+    height: 260px;
     max-width: 100%;
     width: 500px;
     border: 3px ridge #000000;
@@ -225,14 +225,18 @@ footer {
         font-size: 1em;
     }
 
+    .about {
+        margin: 3em auto;
+    }
+
 }
 
 @media screen and (max-width: 475px) {
     .about {
         font-size: 20px;
         width: 380px;
-        height: 290px;
-        margin: 4em auto;
+        height: 260px;
+        margin: 0em auto;
     }
 }
 
@@ -269,9 +273,46 @@ footer {
     #home-start {
         margin-bottom: -30px;
     }
+
+    .about {
+        height: 230px;
+    }
 }
 
 @media screen and (max-width: 350px) {
+    .about {
+        height: 270px;
+        font-size: 19px;
+    }
 
+    h2 {
+        margin-bottom: 40px;
+    }
+
+    ul {
+        padding: 0;
+    }
     
+    nav {
+        margin-top: 1em;
+    }
+
+    footer {
+        height: 30px
+    }
+
+    body {
+        font-size: 1.2em;
+    }
 }
+
+@media screen and (mad-width: 300px) {
+    .about { 
+        font-size: 18px;
+    }
+    
+    .about ul {
+        padding: 0;
+    }
+}
+
