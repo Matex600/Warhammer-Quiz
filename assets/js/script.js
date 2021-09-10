@@ -1,27 +1,27 @@
 // targetting elements by id
-const playGame = document.getElementById("play-btn")
-const questionsBox = document.getElementById("questions")
-const getQuestionElement = document.getElementById("question")
-const getAnswerElement = document.getElementById("answer")
-const getIncorrectAnswerElement = document.getElementById("incorrect")
-const gorkIncreaseElement = document.getElementById("add-point")
-const darkGodsIncreaseElement = document.getElementById("lose-point")
-const resetGame = document.getElementById("reset-game")
+const playGame = document.getElementById("play-btn");
+const questionsBox = document.getElementById("questions");
+const getQuestionElement = document.getElementById("question");
+const getAnswerElement = document.getElementById("answer");
+const getIncorrectAnswerElement = document.getElementById("incorrect");
+const gorkIncreaseElement = document.getElementById("add-point");
+const darkGodsIncreaseElement = document.getElementById("lose-point");
+const resetGame = document.getElementById("reset-game");
 
 
 // let question numbers so it starts at 0 index in array
 // let scores 0 to increment with answers
-let questionNumber = 0
-let gorkIzPleased = 0
-let youDismayTheDarkGods = 0
+let questionNumber = 0;
+let gorkIzPleased = 0;
+let youDismayTheDarkGods = 0;
 
 
 // click event listeners for starting game
 // click event for question buttons
-playGame.addEventListener('click', runQuiz)
-getAnswerElement.addEventListener('click', (e) => checkAnswer(e))
-getIncorrectAnswerElement.addEventListener('click', (e) => checkAnswer(e))
-resetGame.addEventListener('click', resetQuiz)
+playGame.addEventListener('click', runQuiz);
+getAnswerElement.addEventListener('click', (e) => checkAnswer(e));
+getIncorrectAnswerElement.addEventListener('click', (e) => checkAnswer(e));
+resetGame.addEventListener('click', resetQuiz);
 
 
 
@@ -154,13 +154,13 @@ const questions = [{
             }
         ]
     },
-]
+];
 
 function randomQuestions() {
     let x = 0;
     while (x < questions.length) {
         let i = Math.floor(Math.random() * questions.length);
-        const questionsCopy = [...questions]
+        const questionsCopy = [...questions];
         questions.splice(i, 1);
         questions.push(questionsCopy[i]);
         x++;
@@ -183,17 +183,17 @@ function randomQuestions() {
 function runQuiz() {
     playGame.classList.add('hidden');
     questionsBox.classList.remove('hidden');
-    inputQuestions(0)
+    inputQuestions(0);
 }
 
 // updates view with determined question
 function inputQuestions(pos) {
     if (pos < questions.length) {
-        getQuestionElement.innerText = questions[pos].question
-        getAnswerElement.innerText = questions[pos].answers[1].answer
-        getAnswerElement.dataset.correct = questions[pos].answers[1].correct
-        getIncorrectAnswerElement.innerText = questions[pos].answers[0].answer
-        getIncorrectAnswerElement.dataset.correct = questions[pos].answers[0].correct
+        getQuestionElement.innerText = questions[pos].question;
+        getAnswerElement.innerText = questions[pos].answers[1].answer;
+        getAnswerElement.dataset.correct = questions[pos].answers[1].correct;
+        getIncorrectAnswerElement.innerText = questions[pos].answers[0].answer;
+        getIncorrectAnswerElement.dataset.correct = questions[pos].answers[0].correct;
     }
 
 }
@@ -213,7 +213,7 @@ function checkAnswer(e) {
         darkGodsIncreaseElement.innerHTML = youDismayTheDarkGods;
     }
     questionNumber++;
-    inputQuestions(questionNumber)
+    inputQuestions(questionNumber);
 
     // check if game is complete here
     // displays results to user at
@@ -221,42 +221,42 @@ function checkAnswer(e) {
     if ((questions.length - (gorkIzPleased + youDismayTheDarkGods)) <= 0) {
         if (gorkIzPleased > youDismayTheDarkGods) {
 
-            getQuestionElement.innerText = `You win!! .. you got ${gorkIzPleased} questions right`
-            resetGame.innerText = `Try Again?`
+            getQuestionElement.innerText = `You win!! .. you got ${gorkIzPleased} questions right`;
+            resetGame.innerText = `Try Again?`;
 
 
         } else if (gorkIzPleased === youDismayTheDarkGods) {
 
-            getQuestionElement.innerText = `You drew :() you got ${gorkIzPleased} questions right`
-            resetGame.innerText = `Try Again?`
+            getQuestionElement.innerText = `You drew :() you got ${gorkIzPleased} questions right`;
+            resetGame.innerText = `Try Again?`;
 
 
         } else {
 
-            getQuestionElement.innerText = `You lose :( .. you got ${gorkIzPleased} questions right`
-            resetGame.innerText = `Try Again?`
+            getQuestionElement.innerText = `You lose :( .. you got ${gorkIzPleased} questions right`;
+            resetGame.innerText = `Try Again?`;
 
         }
-        resetGame.classList.remove("hidden")
-        getAnswerElement.innerText = ``
-        getAnswerElement.classList.add("hidden")
-        getIncorrectAnswerElement.innerText = ``
-        getIncorrectAnswerElement.classList.add("hidden")
+        resetGame.classList.remove("hidden");
+        getAnswerElement.innerText = ``;
+        getAnswerElement.classList.add("hidden");
+        getIncorrectAnswerElement.innerText = ``;
+        getIncorrectAnswerElement.classList.add("hidden");
     }
 }
 
 // function to reset quiz
 // returns quiz to original state
 function resetQuiz() {
-    questionNumber = 0
-    gorkIzPleased = 0
-    youDismayTheDarkGods = 0
-    randomQuestions()
+    questionNumber = 0;
+    gorkIzPleased = 0;
+    youDismayTheDarkGods = 0;
+    randomQuestions();
     gorkIncreaseElement.innerHTML = gorkIzPleased;
     darkGodsIncreaseElement.innerHTML = youDismayTheDarkGods;
-    runQuiz()
-    resetGame.classList.add("hidden")
-    getAnswerElement.classList.remove("hidden")
-    getIncorrectAnswerElement.classList.remove("hidden")
-};
-randomQuestions()
+    runQuiz();
+    resetGame.classList.add("hidden");
+    getAnswerElement.classList.remove("hidden");
+    getIncorrectAnswerElement.classList.remove("hidden");
+}
+randomQuestions();
