@@ -117,8 +117,11 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 ## Bugs
 
+No bugs reported as of now.
+
 # Site Deployment
 
+## Publishing
 * Site was deployed to github pages with the following steps.
   1. Navigate to github your repositories select repository.
   2. In the repository find "settings" scroll down to "pages" tab.
@@ -132,7 +135,6 @@ Link to deployed site. --[Warhammer-Fantasy-Quiz](https://matex600.github.io/War
 
 ## Media
 [Warhammer Logo](https://static.wikia.nocookie.net/warhammerfb/images/c/c0/Warhammer-logo_%281%29.png/revision/latest/scale-to-width-down/740?cb=20200506191405). - Logo from Warhammer Fantasy Wiki.
-
 
 ## Acknowledgment
 [Code Institute](https://codeinstitute.net/). - Preparing me for HTML, CSS and JS.
