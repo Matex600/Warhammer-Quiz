@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&family=Montserrat&display=swap');
 /* Inknut Antiqua & Montserrat */
 
+
+/* general css to remove default browser settings */
 * {
     margin: 0;
     padding: 0;
@@ -207,6 +209,8 @@ footer {
 
 /* media queries */
 
+
+/* Tablet/large phone screen resolution */
 @media screen and (max-width: 600px) {
     footer {
         position: absolute;
@@ -242,6 +246,7 @@ footer {
 
 }
 
+/* large mobile screen resolution */
 @media screen and (max-width: 475px) {
     .about {
         font-size: 20px;
@@ -303,6 +308,7 @@ footer {
     }
 }
 
+/* Medium mobile screen resolution */
 @media screen and (max-width: 360px) {
     .about {
         height: 270px;
@@ -349,6 +355,7 @@ footer {
     }
 }
 
+/* Small mobile screen resolution */
 @media screen and (max-width: 300px) {
     .about { 
         font-size: 18px;
