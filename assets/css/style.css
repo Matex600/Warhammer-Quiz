@@ -236,6 +236,10 @@ footer {
         margin: 3em auto;
     }
 
+    .quiz-game-box {
+        width: 450px;
+    }
+
 }
 
 @media screen and (max-width: 475px) {
@@ -245,6 +249,19 @@ footer {
         height: 260px;
         margin: 0em auto;
     }
+
+    #hero-image {
+        width: 400px;
+        float: right;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+    .quiz-game-box {
+        height: 350px;
+    }
+
 }
 
 
@@ -286,7 +303,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
     .about {
         height: 270px;
         font-size: 19px;
@@ -294,10 +311,15 @@ footer {
 
     h2 {
         margin-bottom: 40px;
+        font-size: 22px;
     }
 
     ul {
         padding: 0;
+    }
+
+    .navbar {
+        width: 400px;
     }
     
     nav {
@@ -305,11 +327,25 @@ footer {
     }
 
     footer {
-        height: 30px
+        height: 30px;
+        width: 400px;
     }
 
     body {
         font-size: 1.2em;
+        width: 360px;
+    }
+    
+    .scores {
+        padding-left: 10px;
+    }
+    
+    .quiz-btn {
+        margin: 0px 20px 10px 10px;
+    }
+
+    .score-box {
+        width: 400px;
     }
 }
 
