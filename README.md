@@ -213,6 +213,62 @@ It is recommended for users to open any links found in this README with Ctrl + l
 * I optimised my main image to improve performance to a satisfactory level.
 # Devices Tested
 
+I tested manually with personal or family devices
+
+## Personal 
+
+   *  The site behaved as expected on all mobile devices I have private access to.
+   * The site loaded well and performed actions such as navigation and engaging with quiz in a efficient way.
+   * Elements on the site were aligned well and how I expected them to.
+### Devices Tested  
+  * Iphone 11 pro max (1242 x 2688).
+
+  * Using Chrome mobile
+
+  * Iphone 12 pro max ((1284 x 2778).)
+
+  * Using iOS Safari
+
+  * One Plus 7 Pro
+
+  * Using Firefox Mobile
+
+## Chrome Dev tools
+
+* I tested using Chrome developer tools by right clicking the site and clicking inspect.
+
+* The following devices are provided via Chrome developer tools 
+   * Moto G4.
+   * Galaxy S5.
+   * Pixel 2.
+   * Pixel 2 XL.
+   * Iphone 5/SE.
+   * Iphone 6/7/8.
+   * Iphone 6/7/8 Plus.
+   * Iphone X.
+   * Ipad.
+   * Ipad Pro.
+   * Galaxy Fold.
+   * Surface Duo.
+
+* These devices performed as I expected with the site aligning well and having consistent performance.
+
+## Browser Testing
+* Tested on Windows 10 with a monitor screen size of 27" and resolution of 2560x1440, 144hz.
+   * All elements aligned as intended
+
+   * Navigation worked as intended allowing user quick access
+   between pages.
+
+   * The Quiz functioned correctly as well as having good performance
+
+* Browsers tested
+
+  * Google Chrome
+  * Firefox Browser
+  * Opera Web Browser
+  * Microsoft Edge
+
 ## Bugs
 
 No bugs reported as of now.
