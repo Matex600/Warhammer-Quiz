@@ -9,7 +9,7 @@ My goal is to create a functioning, responsive and fun quiz that incorporates Ja
 
 [Click here To View Site Live!](https://matex600.github.io/Warhammer-Quiz/)
 
-It is recommended for users to open any links found in this README with Ctrl + left mouse button (Windows) Control + click (Mac)
+It is recommended for users to open any links found in this README with Ctrl + left mouse button (Windows) Control + click (Mac).
 # UX
 
 ## User Stories
@@ -17,7 +17,7 @@ It is recommended for users to open any links found in this README with Ctrl + l
   1. As a new user I want see a clearly laid out site.
   2. As a new user I want to experience a site with good visual design.
   3. As a new user I want to find a section that shows me the rules of the game.
-  4. As a new user I want the site to have an interactive design
+  4. As a new user I want the site to have an interactive design.
   5. As a new user I want ease of access and fluid navigation through different pages and game functions.
   6. As a new user I want the site to be responsive on multiple different displays and devices.
 
@@ -94,12 +94,12 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 ## Game Logo
  ![Game logo](assets/readme-files/gamelogo.PNG)
- * This shows the user what the game instantly.
+ * The main image of the page helps the user identify the theme of the site.
 
 ## Navigation
  ![Nav Bar](assets/readme-files/navbar.PNG)
  * Navigation bar with Home and About for easy access across different pages.
- * Responsive and has hover feature to help user identify where cursor is located.
+ * It is responsive and has a hover feature to help user identify where cursor is located.
 
 ## Title
  ![Site Title](assets/readme-files/title.PNG)
@@ -114,7 +114,7 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 ## Information area
 ![InfoArea](assets/readme-files/aboutarea.PNG)
-* Short and simple information area.
+* Tells the user some information about amount of questions and answers and why it was made.
 
 # Quiz Page
 
