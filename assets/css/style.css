@@ -366,4 +366,12 @@ footer {
     .about ul {
         padding: 0;
     }
+
+    #question {
+        font-size: 18px;
+    }
+
+    #play-btn {
+        margin: 60px 15px 15px 25px;
+    }
 }
