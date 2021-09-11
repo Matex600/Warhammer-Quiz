@@ -105,19 +105,19 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 ## Validation
 
-### HTML
+## HTML
  * [W3C HTML Validator](https://validator.w3.org/)
 
    * [Index Results - Pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2Findex.html)
    * [About Results - Pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2Fabout.html)
    * [Quiz Results - Pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2Fquiz.html)
-### CSS
+## CSS
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
    * [CSS Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
  ![Valid CSS!](https://jigsaw.w3.org/css-validator/images/vcss)
 
-### JS
+## JS
  * [JSHint](https://jshint.com/)
 
  * No Errors in JSHint
@@ -132,10 +132,21 @@ It is recommended for users to open any links found in this README with Ctrl + l
    * Enable New JavaScript features (ES6)
    * Check results on right hand side of code!
 
-## Lighthouse
+# Lighthouse
 
-## Devices Tested
+## First Phase
 
+### Desktop
+  ![DesktopTest1](assets/readme-files/Lighthouse-Desktop.PNG)
+
+* I am happy with the score for my desktop lighthouse test.
+
+### Mobile
+
+  ![MobileTest1](assets/readme-files/Lighthouse-Mobile-1.PNG)
+# Devices Tested
+
+* The first mobile test has shown a minor performance issue
 ## Bugs
 
 No bugs reported as of now.
