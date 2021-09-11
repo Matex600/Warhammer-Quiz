@@ -145,6 +145,8 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
   ![MobileTest1](assets/readme-files/Lighthouse-Mobile-1.PNG)
 
+  * The first mobile test has shown a minor performance issue
+
 ## Second Phase
 
 ### Mobile 
@@ -154,9 +156,6 @@ It is recommended for users to open any links found in this README with Ctrl + l
 * I optimised my main image to improve performance to a satisfactory level.
 # Devices Tested
 
-
-
-* The first mobile test has shown a minor performance issue
 ## Bugs
 
 No bugs reported as of now.
@@ -181,7 +180,7 @@ No bugs reported as of now.
 * You can clone this repository to local device with the following steps
    1.  Navigate to github repositores select this [repository](https://github.com/Matex600/Warhammer-Quiz)
    2. Under the repository name there is a green clone or download button.
-   
+
 Link to deployed site. --[Warhammer-Fantasy-Quiz](https://matex600.github.io/Warhammer-Quiz/)--
 
 # Credits
