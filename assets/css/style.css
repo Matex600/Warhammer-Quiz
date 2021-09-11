@@ -143,6 +143,7 @@ a:hover {
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+    cursor:pointer;
 }
 
 .quiz-controls {
@@ -162,6 +163,7 @@ a:hover {
     padding: 5px;
     font-size: 1em;
     font-family: 'Montserrat', sans-serif;
+    cursor:pointer;
 }
 
 .scores {
@@ -262,7 +264,7 @@ footer {
 }
 
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
     .quiz-game-box {
         height: 350px;
     }
@@ -327,7 +329,7 @@ footer {
     .navbar {
         width: 400px;
     }
-    
+
     nav {
         margin-top: 1em;
     }
@@ -341,11 +343,11 @@ footer {
         font-size: 1.2em;
         width: 360px;
     }
-    
+
     .scores {
         padding-left: 10px;
     }
-    
+
     .quiz-btn {
         margin: 0px 20px 10px 10px;
     }
@@ -357,13 +359,12 @@ footer {
 
 /* Small mobile screen resolution */
 @media screen and (max-width: 300px) {
-    .about { 
+    .about {
         font-size: 18px;
         height: 250px;
     }
-    
+
     .about ul {
         padding: 0;
     }
 }
-
