@@ -327,7 +327,6 @@ footer {
     }
 
     footer {
-        height: 0;
         position: fixed;
         text-align: center;
     }
