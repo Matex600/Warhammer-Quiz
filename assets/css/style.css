@@ -265,6 +265,14 @@ footer {
         width: 250px;
     }
 
+    #question {
+        font-size: 18px;
+    }
+
+    #play-btn {
+        margin: 60px 15px 15px 25px;
+    }
+
 }
 
 
@@ -304,6 +312,8 @@ footer {
     .about {
         height: 230px;
     }
+
+
 }
 
 /* Medium mobile screen resolution */
