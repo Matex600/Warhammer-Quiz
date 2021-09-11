@@ -109,6 +109,8 @@ It is recommended for users to open any links found in this README with Ctrl + l
 
 ### CSS
 
+ * [CSS Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+
 ### JS
 
 ## Lighthouse
