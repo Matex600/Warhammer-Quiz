@@ -106,10 +106,16 @@ It is recommended for users to open any links found in this README with Ctrl + l
 ## Validation
 
 ### HTML
+ * [W3C HTML Validator](https://validator.w3.org/)
 
+   * [Index Results - Pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2Findex.html)
+   * [About Results - Pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2Fabout.html)
+   * [Quiz Results - Pass](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2Fquiz.html)
 ### CSS
+ * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+   * [CSS Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
- * [CSS Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmatex600.github.io%2FWarhammer-Quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+ ![Valid CSS!](https://jigsaw.w3.org/css-validator/images/vcss)
 
 ### JS
 
