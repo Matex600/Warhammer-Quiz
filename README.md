@@ -144,7 +144,17 @@ It is recommended for users to open any links found in this README with Ctrl + l
 ### Mobile
 
   ![MobileTest1](assets/readme-files/Lighthouse-Mobile-1.PNG)
+
+## Second Phase
+
+### Mobile 
+
+![MobileTest2](assets/readme-files/Lighthouse-Mobile-2.PNG)
+
+* I optimised my main image to improve performance to a satisfactory level.
 # Devices Tested
+
+
 
 * The first mobile test has shown a minor performance issue
 ## Bugs
