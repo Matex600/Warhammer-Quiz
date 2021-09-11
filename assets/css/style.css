@@ -256,11 +256,6 @@ footer {
         height: 260px;
         margin: 0em auto;
     }
-
-    #hero-image {
-        width: 400px;
-        float: right;
-    }
 }
 
 
@@ -341,7 +336,6 @@ footer {
 
     body {
         font-size: 1.2em;
-        width: 360px;
     }
 
     .scores {

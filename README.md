@@ -118,6 +118,19 @@ It is recommended for users to open any links found in this README with Ctrl + l
  ![Valid CSS!](https://jigsaw.w3.org/css-validator/images/vcss)
 
 ### JS
+ * [JSHint](https://jshint.com/)
+
+ * No Errors in JSHint
+
+![JSHint Results](assets/readme-files/JSHint.PNG)
+
+* Testing with JSHint
+   * Navigate to [JSHint](https://jshint.com/)
+   * Copy Javascript code from Gitpod
+   * Paste code into JSHint
+   * Find Configure button
+   * Enable New JavaScript features (ES6)
+   * Check results on right hand side of code!
 
 ## Lighthouse
 
