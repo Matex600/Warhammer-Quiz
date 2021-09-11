@@ -165,12 +165,23 @@ No bugs reported as of now.
 
 ## Publishing
 * Site was deployed to github pages with the following steps.
-  1. Navigate to github your repositories select repository.
+  1. Navigate to github your repositories and select my [repository](https://github.com/Matex600/Warhammer-Quiz)
   2. In the repository find "settings" scroll down to "pages" tab.
   3. Select main/master in source both are correct.
   4. Once you make a selection the page will automatically refresh.
   5. A link will be provided with succesful deployment.
 
+## Forking
+* You can contribute to this project without affecting the main branch with the following steps.
+  1. Navigate to github repositores select this [repository](https://github.com/Matex600/Warhammer-Quiz)
+  2. On the right of the repository name you will find the fork button next to star and watch buttons.
+  3. Pressing said button will create a copy for you to use.
+
+## Cloning
+* You can clone this repository to local device with the following steps
+   1.  Navigate to github repositores select this [repository](https://github.com/Matex600/Warhammer-Quiz)
+   2. Under the repository name there is a green clone or download button.
+   
 Link to deployed site. --[Warhammer-Fantasy-Quiz](https://matex600.github.io/Warhammer-Quiz/)--
 
 # Credits
