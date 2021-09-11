@@ -100,8 +100,9 @@ It is recommended for users to open any links found in this README with Ctrl + l
  * [Github](https://github.com/). - I used github to store and release project.
  * [Gitpod](https://www.gitpod.io/). - I used gitpod to create and write code.
  * [Font Awesome](https://fontawesome.com/). - I used Font Awesome for interesting font icons.
- *
- *
+ * [Light House](https://developers.google.com/web/tools/lighthouse). - I used this developer tool in chrome to test performance, accessibility, best practices and SEO.
+ * [AmIresponsive](http://ami.responsivedesign.is/). - I used this site to add image to the top of README
+ and to see how my site appears on multiple devices at the same time.
 
 # Testing
 
