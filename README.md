@@ -87,7 +87,61 @@ It is recommended for users to open any links found in this README with Ctrl + l
 ![Mobile about](assets/readme-files/mobile-about-wireframe.PNG)
 
 # Site Features
+ 
+ # Home page
 
+* All site features are responsive on desktop, tablet and mobile.
+
+## Game Logo
+ ![Game logo](assets/readme-files/gamelogo.PNG)
+ * This shows the user what the game instantly.
+
+## Navigation
+ ![Nav Bar](assets/readme-files/navbar.PNG)
+ * Navigation bar with Home and About for easy access across different pages.
+ * Responsive and has hover feature to help user identify where cursor is located.
+
+## Title
+ ![Site Title](assets/readme-files/title.PNG)
+ * Title of the site challenging user into playing the game.
+
+## Start Button
+ ![Start Button](assets/readme-files/startbtn.PNG)
+ * Start button to take user to game page and area.
+ * Uses cursor:pointer to help user identify cursor positon.
+
+# About Page
+
+## Information area
+![InfoArea](assets/readme-files/aboutarea.PNG)
+* Short and simple information area.
+
+# Quiz Page
+
+## Score area
+![ScoreArea](assets/readme-files/scores.PNG)
+* Displays score for the user to track their progress.
+
+## Game area
+![Gamestart](assets/readme-files/gamestart.PNG)
+* Initial game screen with "Play game" button
+
+![GameArea](assets/readme-files/gamearea.PNG)
+* The quiz takes place here with 10 questions
+* 2 answers each randomised with javascript
+* Selecting answers will award score to user
+
+![GameEndWin](assets/readme-files/victoryscreen.PNG)
+* This screen uses javascript to show user how many questions
+* they got right and a "Try Again?" button to let user reset quiz.
+
+![GameEndDraw](assets/readme-files/drawscreen.PNG)
+* This screen is the same as above but shows a draw if user
+* Gets 5 right and 5 wrong questions.
+
+![GameEndLose](assets/readme-files/losescreen.PNG)
+* This screen depicts a loss by the user if they end the quiz
+* With more wrong than right answers.
 # Technologies Useds
 
 ## Coding Languages
