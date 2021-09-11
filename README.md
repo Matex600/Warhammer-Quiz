@@ -1,5 +1,7 @@
 # Warhammer Fantasy Quiz
 
+![AmIResponsive](assets/readme-files/AmIResponsive.PNG)
+
 # Introduction
 This website aims to test users on their knowledge in the Warhammer Fantasy Universe.
 
